@@ -14,17 +14,17 @@ Microservicio de detección de transacciones fraudulentas en tiempo real constru
 ### 1. Documentación e Interfaz Interactiva (Swagger UI)
 Evaluación en tiempo real enviando un vector de características y recibiendo la probabilidad de fraude junto con la respuesta `200 OK`.
 
-![Swagger UI Demo](assets/api_response.png)
+![Swagger UI Demo](api_response.png)
 
 ### 2. Estructura del Proyecto
 Organización modular de código separando la capa de servicio (`api/`), artefactos de modelos (`models/`), datos (`data/`) y lógica de procesamiento/entrenamiento (`src/`).
 
-![Project Structure](assets/project_structure.png)
+![Project Structure](project_structure.png)
 
 ### 3. Entorno de Ejecución y Servidor Uvicorn
 Servidor ASGI corriendo localmente y procesando peticiones HTTP POST en tiempo real.
 
-![VS Code Terminal](assets/vscode_workspace.png)
+![VS Code Terminal](vscode_workspace.png)
 
 ---
 
