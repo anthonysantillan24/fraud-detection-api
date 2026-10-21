@@ -1,0 +1,13 @@
+venv/
+env/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.pkl
+models/*.joblib
+__pycache__/
+*.py[cod]
+mlruns/
+.vscode/
+.idea/
